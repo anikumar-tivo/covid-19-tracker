@@ -1,0 +1,166 @@
+/* Default */
+.covid-item {
+    background: #efefef;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 5px #dadada;
+    background-image: url(../images/world.png);
+    background-repeat: no-repeat;
+    background-position: top 10px right 10px;
+    background-blend-mode: overlay;
+    background-size: 80px;
+}
+
+.covid-row {
+    display: flex;
+}
+
+.covid-col {
+    padding-right: 30px;
+}
+
+.covid-col.covid-recovered {
+    color: #32bb32;
+    padding-right: 0;
+}
+
+.covid-col.covid-confirmed {
+    color: #ff2c2c;
+}
+
+.covid-col.covid-deaths {
+    color: #494949;
+}
+
+.covid-value {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.covid-label {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+h4.covid-title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 28px;
+}
+
+/* Style 2 */
+.covid-item.covid-style-2 {
+    text-align: center;
+    padding: 25px;
+    background-image: none;
+}
+
+.covid-item.covid-style-2 .covid-col {
+    padding-right: 0;
+    margin: 0px 15px;
+}
+
+.covid-item.covid-style-2 .covid-row {
+    justify-content: center;
+}
+
+.covid-item.covid-style-2 h4.covid-title {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.covid-item.covid-style-2 .covid-value {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.covid-item.covid-style-2 .covid-col.covid-recovered {
+    color: #16D39A!important;
+}
+
+.covid-item.covid-style-2 .covid-col.covid-confirmed {
+    color: #FF7588!important;
+}
+
+/* Style 3 */
+.covid-item.covid-style-3 .covid-col {
+    border-right: 1px solid #ddd;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.covid-item.covid-style-3 .covid-col.covid-recovered {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.covid-item.covid-style-3 .covid-label {
+    color: #868686;
+}
+
+.covid-item.covid-style-3 .covid-row {
+    justify-content: center;
+}
+
+.covid-item.covid-style-3 {
+    text-align: center;
+    padding: 25px;
+    background-position: top 10px center;
+}
+
+.covid-item.covid-style-3 h4.covid-title {
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
+.covid-item.covid-style-3 .covid-col.covid-confirmed {
+    padding-left: 0;
+}
+
+/* Style 4 */
+.covid-item.covid-style-4 .covid-col {
+    border-right: 1px solid #ffffff40;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.covid-item.covid-style-4 .covid-col.covid-recovered {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.covid-item.covid-style-4 .covid-label {
+    color: #ffffff59;
+}
+
+.covid-item.covid-style-4 .covid-row {
+    justify-content: center;
+}
+
+.covid-item.covid-style-4 {
+    text-align: center;
+    padding: 25px;
+    background-image: url(https://www.covid19world.org/wp-content/plugins/covid19/assets/images/bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+}
+
+.covid-item.covid-style-4 h4.covid-title {
+    margin-bottom: 20px;
+    color: #ffffffd1;
+}
+
+.covid-item.covid-style-4 .covid-col.covid-confirmed {
+    padding-left: 0;
+}
+
+.covid-item.covid-style-4 .covid-value {
+    color: #FFF;
+}
